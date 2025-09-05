@@ -80,6 +80,9 @@ const ProjectsScreen = ({ projects, selectedProject }: ProjectsScreenProps) => {
         <Typography variant="body2">
           PROJECT {selectedProject + 1} OF {projects.length}
         </Typography>
+        <Typography variant="body2" sx={{ mt: 1, color: "#4ade80" }}>
+          PRESS POWER FOR HOME
+        </Typography>
       </Box>
     </Box>
   );

@@ -33,6 +33,14 @@ const HomeScreen = () => {
         <Typography variant="body2">LOCATION: WORLDWIDE</Typography>
         <Typography variant="body2">TYPE: FULL-STACK</Typography>
       </Box>
+      <Box sx={{ mt: 2, fontFamily: "monospace", fontSize: "0.8rem", lineHeight: 1.5, color: "#4ade80" }}>
+        <Typography variant="body2" sx={{ fontWeight: "bold" }}>
+          CONTROLS:
+        </Typography>
+        <Typography variant="body2">A: PROJECTS | B: SKILLS</Typography>
+        <Typography variant="body2">↑↓: NAVIGATE PROJECTS</Typography>
+        <Typography variant="body2">POWER: HOME | ▶️: MUSIC</Typography>
+      </Box>
     </Box>
   );
 };
